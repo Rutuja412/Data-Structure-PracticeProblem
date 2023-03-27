@@ -64,6 +64,10 @@ namespace Data_Structure
                     BuiltLinkedList list1 = new BuiltLinkedList();
                     list1.DemoLinkedList();
                     break;
+                    case 5:
+                    BuiltInStack stack1 = new BuiltInStack();
+                    stack1.StackDemo();
+                    break;
             }
         }
     }
