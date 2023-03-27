@@ -60,6 +60,10 @@ namespace Data_Structure
                     queue.Display();
                     Console.WriteLine("\n");
                     break;
+                    case 4:
+                    BuiltLinkedList list1 = new BuiltLinkedList();
+                    list1.DemoLinkedList();
+                    break;
             }
         }
     }
