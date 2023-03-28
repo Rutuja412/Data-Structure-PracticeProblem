@@ -22,6 +22,7 @@ namespace Data_Structure
             int top= stack.Peek();
             Console.WriteLine("Top element is : " + top);
             Console.WriteLine("Elements after pop:80 is popped");
+            //remove first
             stack.Pop();
             foreach (int item in stack)
             {

@@ -8,7 +8,7 @@ namespace Data_Structure
         {
             Console.WriteLine(" Welcome to Data structure");
             Console.WriteLine("Select given options");
-            Console.WriteLine("1.Custom Linked List \n2,Custom Stack \n3 Custom Queue");
+            Console.WriteLine("1.Custom Linked List \n2,Custom Stack \n3 Custom Queue\n4.BuiltLinked list \n5.Built in stack \n6.Built in queue");
             int option = Convert.ToInt16(Console.ReadLine());
             switch (option)
             {
@@ -67,6 +67,11 @@ namespace Data_Structure
                     case 5:
                     BuiltInStack stack1 = new BuiltInStack();
                     stack1.StackDemo();
+                    break;
+                    case 6:
+                    BuiltInQueue que = new BuiltInQueue();
+                    que.ShowQueueDemo();
+                    Console.WriteLine();
                     break;
             }
         }
